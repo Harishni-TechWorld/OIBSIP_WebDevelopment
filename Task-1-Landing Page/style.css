@@ -31,9 +31,6 @@ h2 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.container {
-  background-color: #e3f2fd;
-}
 
 ul {
   list-style-type: none;
@@ -46,10 +43,6 @@ li {
   padding: 10px;
   width: 50%;
   border-radius: 8px;
-}
-
-h2 {
-  margin-top: 30px;
 }
 
 .hero {
@@ -129,6 +122,97 @@ h2 {
 p {
   margin: 8px auto;
 }
+
+
+.navbar {
+  background-color: #222;
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;   
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f8;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #222;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+
+
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section {
+  margin: 80px auto;   
+  max-width: 800px;
+}
+
+.section h2 {
+  color: #5e3458;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+
+.card {
+  background-color: white;
+  padding: 18px;
+  margin: 15px auto;
+  width: 70%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  font-size: 18px;
+}
+
+
+.text {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  width: 70%;
+  margin: auto;
+}
+
 
 
 
